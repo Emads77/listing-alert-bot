@@ -5,3 +5,12 @@ export const SEARCHES = [
   { query: 'gazelle esprit', maxDistanceKm: 60 },
   // { query: 'cortina', maxPriceCents: 50000, maxDistanceKm: 60 },
 ];
+
+// config.js
+export const BLOCKED_SELLERS = new Set(
+  [18495136] // djay
+  [49738033] //A. Niemeijer
+  [20016205] //Marant
+  ,
+
+); 
